@@ -11,7 +11,7 @@ URL = "https://github.com/eugen1j/django-multipleimageinput"
 EMAIL = "eugenij.bondar@gmail.com"
 AUTHOR = "eugen1j"
 REQUIRES_PYTHON = ">=3.7.0"
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 
 here = os.path.abspath(os.path.dirname(__file__))
 with open(f"{here}/README.md") as f:
@@ -57,13 +57,7 @@ setup(
     author=AUTHOR,
     packages=[NAME],
     install_requires=[
-        "pyfakefs",
-        "pytest",
-        "beautifulsoup4",
-        "aiohttp",
-        "pytest-asyncio",
-        "lxml",
-        "pytest-aiohttp",
+        "django",
     ],
     description=DESCRIPTION,
     long_description=long_description,
