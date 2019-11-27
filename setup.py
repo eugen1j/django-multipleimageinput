@@ -5,7 +5,7 @@ from shutil import rmtree
 from setuptools import setup, Command
 
 # Package meta-data.
-NAME = "django-multipleimageinput"
+NAME = "django_multipleimageinput"
 DESCRIPTION = "Django widget for multiple image input"
 URL = "https://github.com/eugen1j/django-multipleimageinput"
 EMAIL = "eugenij.bondar@gmail.com"
