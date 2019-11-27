@@ -1,7 +1,15 @@
 # Django MultipleImageInput
 
+[![PyPI version](https://badge.fury.io/py/django-multipleimageinput.svg)](https://badge.fury.io/py/django-multipleimageinput)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/eugen1j/aioscrapy/blob/master/LICENSE)
+
+
 Widget for multiple image fields. Works good with PostgreSQL array fields.
 
+
+## Installation
+
+    pip install django_multipleimageinput
 
 ## Example
 
