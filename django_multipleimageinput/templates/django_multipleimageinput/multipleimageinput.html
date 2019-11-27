@@ -1,0 +1,17 @@
+{% load static %}
+
+<div class="image-input js-image-input" data-media-prefix="{{ widget.media_prefix }}/">
+  <input type="hidden" value="{{ widget.value|default:"" }}" id="{{ widget.attrs.id }}" name="{{ widget.name }}">
+  <div class="image-container">
+    {% for image in widget.image_list %}
+      <div class="image-block">
+        <i class="fa fa-times"></i>
+        <img src="{% get_media_prefix %}{{ image }}" alt="">
+      </div>
+    {% endfor %}
+  </div>
+  <label class="btn btn-default btn-file">
+    <span>Добавить фото</span>
+    <input accept="image/*" type="file" hidden data-url="{{ widget.upload_url }}" multiple>
+  </label>
+</div>

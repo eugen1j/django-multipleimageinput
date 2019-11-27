@@ -1,0 +1,36 @@
+.image-container .image-block {
+    display: inline-block;
+    width: 19%;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    margin-top: -25px;
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.image-container i {
+    font-size: 20px;
+    position: relative;
+    left: calc(50% - 17px);
+    bottom: -5px;
+    color: white;
+    cursor: pointer;
+    text-shadow: 0 0 5px rgba(0,0,0,.5);
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .image-container .image-block {
+        width: 48%;
+    }
+}
+
